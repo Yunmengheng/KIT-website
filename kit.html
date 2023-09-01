@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kirirom Institute of Technology - KIT</title>
+  <style>
+    body {
+    background-color: rgb(230, 39, 39);
+    color: aliceblue;
+    border-radius: 3px;
+  }
+  
+  .kit-logo {
+    width: 8%;
+    border-radius: 50%;
+  }
+  
+  .kit-image {
+    width: 70%;
+  }
+  
+  header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  article {
+    flex: 1;
+  }
+  
+  aside {
+    flex: 1;
+    background-color: lightgray;
+    color: blue;
+    padding: 15px;
+  }
+  
+  
+  footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  </style>
+</head>
+<body>
+  <header>
+    <img class="kit-logo" src="images/kit-logo.jpg">
+    <h1 style="color: red;">Kirirom Institute of Technology - KIT</h1>
+    <nav>
+      <a href="#">Home |</a> 
+      <a href="#">About |</a> 
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <section>
+    <article>
+      <h2>Welcome to KIT</h2>
+      <img class="kit-image" src="images/kit.jpg" alt="KIT Campus">
+      <p class="text">Kirirom Institute of Technology (KIT) is a private institution for higher education located in Kirirom National Park, Cambodia founded by Mr. Takeshi Izuka. The institute was established in 2014 and formally commenced operations in October 2014. The Institute is part of A2A Town Co, Ltd. that envisions the development of Southeast Asia’s counterpart to Silicon Valley. KIT plans to develop students who can use cutting-edge technologies to innovate the world. It further aims to provide opportunities to hard-working and talented students who may be at the bottom of the pyramid instead of serving the privileged few.
+      </p>
+    </article>
+    <aside>
+      <img src="images/president.webp" alt="President Takeshi Izuka">
+      <p>President & CEO</p>
+      <h2>Takeshi Izuka</h2>
+      <p>Fortunately for those born wealthy, you can attain a good or higher education and become wealthier. However, for Japanese and Cambodians, it is very difficult to enter elite institutions like Stanford and MIT. I want everyone to have the opportunity to become a world leader regardless of their family's socioeconomic status or ability to speak English.</p>
+    </aside>
+  </section>
+  <div>
+    <h1>Enroll Now</h1>
+    <form>
+      <label for="full_name">Full Name:</label>
+      <input type="text" id="full_name" name="full_name"><br></br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br></br>
+      
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone"><br></br>
+      
+      <label for="course">Course:</label>
+      <select id="course" name="course">
+        <option value="Software Engineering">Software Engineering</option>
+        <option value="Tourism Management">Tourism Management</option>
+        <option value="Architecture">Architecture</option>
+      </select><br></br>
+      
+      <label for="comments">Comments:</label>
+      <input type="text" id="Comments" name="Comments"><br></br>
+      
+      <input type="submit" value="Submit"><br></br>
+    </form>
+</div>
+  <footer>
+    <nav>
+      <a href="#">Facebook |</a> 
+      <a href="#">Email |</a> 
+      <a href="#">Slack</a>
+    </nav>
+  </footer>
+</body>
+</html>
